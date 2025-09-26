@@ -9,7 +9,8 @@ def sum_of_digits(num):
     return sum(int(digit) for digit in str(abs(num)))
 
 # Nhập lại n mà ko ktra và tính tổng
-n2 = int(input('Nhập lại n: '))
+n2 = int(input('Enter n: '))
+print("dodo")
 print("Tổng các chữ số của n:", sum_of_digits(n2))
 
 # Hàm đảo ngược
