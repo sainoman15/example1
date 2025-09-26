@@ -1,11 +1,5 @@
 import math
 
-while True:
-    try:
-        n = (int(input("Nhập số nguyên n: ")))
-        break
-    except ValueError:
-        print("Lỗi: Bạn phải nhập đúng số nguyên!")
 
 # Hiển thị n ở dạng nhị phân
 print("Dạng nhị phân của n:", '1' + str(bin(n)[3:]).zfill(16) if n < 0 else bin(n)[2:])
